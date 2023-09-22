@@ -17,8 +17,10 @@
   };
 
   // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+  /*const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);*/
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
 
 /*var firebaseConfig = {
       apiKey: "AIzaSyB9J_6jk2_uLkfhCwd3wsP1Qq3musB7aWw",
