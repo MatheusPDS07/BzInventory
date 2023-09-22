@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">BzInventory</string>
+
+    <string name="enter_name" translatable="false">Enter Name</string>
+    <string name="enter_number" translatable="false">Enter Number</string>
+
+    <string name="dialog_message" translatable="false">Welcome to Alert Dialog</string>
+    <string name="dialog_title" translatable="false">Javatpoint Alert Dialog</string>
+    <string name="coming_soon" translatable="false">coming soon</string>
+    <string name="company" translatable="false">company</string>
+    <string name="equipment" translatable="false">equipment</string>
+
+    <string name="e_mail">e_mail</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="total_amount_of_equipment">Total amount of equipment</string>
+    <string name="cnpj">cnpj</string>
+    <string name="name_company">Name company</string>
+    <string name="name_fantasy">name fantasy</string>
+    <string name="email_gerencia">email gerencia</string>
+    <string name="gerencia_name">gerencia name</string>
+    <string name="name">Name</string>
+    <string name="model">model</string>
+    <string name="local">Local</string>
+    <string name="factory">Factory</string>
+    <string name="system">System</string>
+    <string name="status">Status</string>
+    <string name="type">Type</string>
+    <string name="add_equipment">Add equipment</string>
+    <string name="donwload_data">Donwload data</string>
+    <string name="upload_data">Upload data</string>
+    <string name="add_company">Add company</string>
+    <string name="bi">BI</string>
+    <string name="logout">logout</string>
+
+    <string-array name="list_status">
+        <item>enable</item>
+        <item>disable</item>
+    </string-array>
+
+    <string-array name="list_type">
+        <item>notebook</item>
+        <item>desktop</item>
+        <item>router</item>
+        <item>printer</item>
+        <item>smartphone</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="list_system">
+        <item>linux</item>
+        <item>windows</item>
+        <item>android</item>
+        <item>MacOS</item>
+        <item>iOS</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="list_factory">
+        <item>microsoft</item>
+        <item>apple</item>
+        <item>lenovo</item>
+        <item>samsung</item>
+        <item>other</item>
+    </string-array>
+</resources>

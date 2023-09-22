@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:background">@color/blue_grey_50</item>
+        <item name="android:textColor">@color/amber_700</item>
+    </style>
+</resources>

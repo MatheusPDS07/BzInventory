@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/style_background"
+	android:orientation="vertical"
+	android:padding="5dp">
+
+	<androidx.cardview.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/style_background"
+		android:foreground="?attr/selectableItemBackground"
+		app:cardCornerRadius="3dp"
+		app:cardElevation="3dp">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/style_background"
+			android:orientation="horizontal"
+			android:padding="10dp">
+
+			<ImageView
+				android:id="@+id/imageView_logo"
+				android:layout_width="100dp"
+				android:layout_height="95dp"
+				tools:ignore="ContentDescription" />
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/style_background"
+				android:orientation="vertical"
+				android:padding="10dp">
+
+				<TextView
+					android:id="@+id/nama_barang"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:fontFamily="sans-serif"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:textColor="@color/white"
+					android:textSize="20sp" />
+
+				<TextView
+					android:id="@+id/merk_barang"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:fontFamily="sans-serif"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:textColor="@color/white"
+					android:textSize="20sp" />
+
+				<TextView
+					android:id="@+id/harga_barang"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:fontFamily="sans-serif"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:textColor="@color/white"
+					android:textSize="20sp" />
+
+				<TextView
+					android:id="@+id/company_teste"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+
+		</LinearLayout>
+	</androidx.cardview.widget.CardView>
+
+</LinearLayout>

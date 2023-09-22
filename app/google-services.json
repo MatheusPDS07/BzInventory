@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "656296737637",
+    "project_id": "bzinventory-ba9a7",
+    "storage_bucket": "bzinventory-ba9a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656296737637:android:754ed92b05833cbe723f8c",
+        "android_client_info": {
+          "package_name": "com.bz.bzinventory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRlsFOxZ7XZfPKUDRufmpYYW1oufmGwCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

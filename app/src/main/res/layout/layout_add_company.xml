@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blue_grey_50"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/deep_orange_300">
+
+        <EditText
+            android:id="@+id/cnpj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="sans-serif"
+            android:hint="@string/cnpj"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@color/amber_700"
+            android:textSize="20sp"
+            tools:ignore="Autofill" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/deep_orange_300">
+
+        <EditText
+            android:id="@+id/name_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:hint="@string/name_company"
+            android:singleLine="true"
+            android:textColor="@color/amber_700"
+            android:textSize="20sp"
+            tools:ignore="Autofill,TextFields" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/deep_orange_300">
+
+        <EditText
+            android:id="@+id/name_fantasy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:hint="@string/name_fantasy"
+            android:singleLine="true"
+            android:textColor="@color/amber_700"
+            android:textSize="20sp"
+            tools:ignore="Autofill,TextFields" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/deep_orange_300">
+
+        <EditText
+            android:id="@+id/gerencia_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:hint="@string/gerencia_name"
+            android:singleLine="true"
+            android:textColor="@color/amber_700"
+            android:textSize="20sp"
+            tools:ignore="Autofill,TextFields" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/deep_orange_300">
+
+        <EditText
+            android:id="@+id/email_gerencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:hint="@string/email_gerencia"
+            android:singleLine="true"
+            android:textColor="@color/amber_700"
+            android:textSize="20sp"
+            tools:ignore="Autofill,TextFields" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

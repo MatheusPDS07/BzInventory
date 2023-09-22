@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="right"
+    android:orientation="vertical"
+    tools:context=".FragmentActivity"
+    tools:ignore="RtlHardcoded,UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+
+                <Spinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:background="@drawable/style_background"
+                    android:popupBackground="@drawable/style_background"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/total_amount_of_equipment"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_700"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_700"
+                    android:textSize="48sp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Impressora"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_700"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtValue_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_700"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Computador de mesa"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_700"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtValue_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_700"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Computador portátil"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_700"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtValue_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_700"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Roteador"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_700"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txtValue_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_700"
+                    android:textSize="34sp" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/btnAdd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    app:backgroundTint="@color/light_blue_600"
+                    app:srcCompat="@android:drawable/ic_input_add" />
+
+        </LinearLayout>
+
+</RelativeLayout>
