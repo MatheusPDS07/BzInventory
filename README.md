@@ -23,3 +23,12 @@
 - VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
 - Runtime version: 11.0.13+0-b1751.21-8125866 amd64 
 - Android Studio Dolphin | 2021.3.1 Patch 1
+
+
+## Acknowledgements
+- This project was inspired by [network-inventory-software](https://community.spiceworks.com/tools)
+- This project was based on [this tutorial](https://firebase.google.com/docs/database/android/read-and-write).
+
+
+## Contact
+Created by [@MatheusPDS07](https://github.com/MatheusPDS07) - feel free to contact me!
